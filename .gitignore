@@ -1,2 +1,2 @@
-environment.php
-wp-content/uploads/
+public/environment.php
+public/wp-content/uploads/

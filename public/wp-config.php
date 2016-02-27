@@ -24,7 +24,7 @@ require(dirname(__FILE__) . '/environment.php');
  * You can have multiple installations in one database if you give each a unique
  * prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix  = 'wp_EkUMs54Z_';
+$table_prefix  = 'wp_';
 
 /**
  * For developers: WordPress debugging mode.
@@ -38,10 +38,11 @@ if ( !defined('WP_DEBUG') ) {
   define('WP_DEBUG', false);
 }
 
-define('WP_SITEURL', 'http://' . $_SERVER['SERVER_NAME'] . '/wordpress');
+define('WP_SITEURL', 'http://' . $_SERVER['SERVER_NAME'] . '/core');
 define('WP_HOME',    'http://' . $_SERVER['SERVER_NAME']);
 define('WP_CONTENT_DIR', $_SERVER['DOCUMENT_ROOT'] . '/wp-content');
 define('WP_CONTENT_URL', 'http://' . $_SERVER['SERVER_NAME'] . '/wp-content');
+define('WP_AUTO_UPDATE_CORE', false );
 
 /* That's all, stop editing! Happy blogging. */
 
